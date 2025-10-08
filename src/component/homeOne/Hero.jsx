@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useMemo, useState } from "react";
-import bg from "@/assets/img/hero/hero-bg-1.jpeg";
+import bg from "@/assets/img/hero/hero-bg-2.jpeg";
 import dashboard from "@/assets/img/hero/dashboard-img.png";
 import dashboardTwo from "@/assets/img/hero/dashboard-img-2.png";
 import Link from "next/link";

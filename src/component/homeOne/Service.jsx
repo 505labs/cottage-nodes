@@ -1,9 +1,9 @@
 import React from "react";
 import bg1 from "@/assets/img/bg/service-1.jpeg";
 import bg2 from "@/assets/img/bg/service-2.jpeg";
-import img1 from "@/assets/img/services/service-1.svg";
-import img2 from "@/assets/img/services/service-2.svg";
-import img3 from "@/assets/img/services/service-3.svg";
+import img1 from "@/assets/img/services/AI1.svg";
+import img2 from "@/assets/img/services/blockchain1.svg";
+import img3 from "@/assets/img/services/math.svg";
 import ServiceCard from "../cards/ServiceCard";
 
 function Service() {
