@@ -7,7 +7,17 @@ import blogImg2 from "@/assets/img/blog/bp-2.webp";
 import blogImg3 from "@/assets/img/blog/bp-3.webp";
 import blogImg4 from "@/assets/img/blog/bp-4.webp";
 
-import heptagon from "@/assets/img/blog/heptagon.jpg";
+import heptagon from "@/assets/img/hackhatons/heptagon.jpg";
+import demistifi from "@/assets/img/hackhatons/demistifi.jpg";
+// import mcpsearch from "@/assets/img/hackhatons/mcpsearch.jpg";
+import tensorroyale from "@/assets/img/hackhatons/tensorroyale.jpg";
+import agenticme from "@/assets/img/hackhatons/agenticme.jpg";
+import octagonai from "@/assets/img/hackhatons/octagonai.jpg";
+import sessionflow from "@/assets/img/hackhatons/sessionflow.jpg";
+import vebay from "@/assets/img/hackhatons/vebay.jpg";
+import sixnineinch from "@/assets/img/hackhatons/69inch.jpg";
+import squadfi from "@/assets/img/hackhatons/squadfi.jpg";
+
 
 function Projects() {
   const projects = [
@@ -16,134 +26,111 @@ function Projects() {
       title: "Heptagon AI",
       description: "Proof of learning AI training platform that uses Filecoin for dataset storage, Phala TEE for proof verification and Flare Network for data collection and price feeds",
       image: heptagon,
-      category: "AI & Data",
-      tags: ["ML", "Data", "ZK"],
+      category: "AI & ZK",
+      tags: ["ML", "Data", "TEE", "ZK"],
     //   client: "505 Labs",
       date: "2024",
       link: "https://ethglobal.com/showcase/heptagonai-otoou"
     },
     {
       id: 2,
-      title: "Decentralized Finance Protocol",
-      description: "Built a secure DeFi lending protocol with smart contracts on Ethereum. Implemented automated market making and yield farming features with comprehensive security audits.",
-      image: blogImg2,
-      category: "Blockchain",
-      tags: ["Blockchain", "Smart Contracts", "DeFi"],
-      client: "FinTech Company",
-      date: "2023",
-      link: "#"
+      title: "DemistiFI",
+      description: "Automated AI Defi portfolio Manager/Smart wallet, powered by Consensus Learning",
+      image: demistifi,
+      category: "AI & Defi",
+      tags: ["Defi", "AI", "Consensus Learning"],
+    //   client: "505 Labs",
+      date: "2025",
+      link: "https://dorahacks.io/buidl/24265"
     },
     {
       id: 3,
-      title: "Real-Time Analytics Dashboard",
-      description: "Enterprise-grade analytics platform processing millions of events per second. Features real-time data visualization, predictive analytics, and custom reporting tools.",
-      image: blogImg3,
-      category: "Data Engineering",
-      tags: ["Big Data", "Analytics", "Real-time"],
-      client: "Enterprise Corp",
-      date: "2024",
-      link: "#"
+      title: "YC Hackhaton: MCP Search Engine",
+      description: "MCP tool search engine for Y combinator hackhaton",
+      image: blogImg4,
+      category: "AI & Search",
+      tags: ["AI", "Search", "MCP"],
+    //   client: "505 Labs",
+      date: "2025",
+      link: "https://github.com/505labs/Y-comb-hack"
     },
     {
       id: 4,
-      title: "Zero-Knowledge Proof System",
-      description: "Implemented a privacy-preserving authentication system using ZK-SNARKs. Enables users to prove identity without revealing sensitive information.",
-      image: blogImg4,
-      category: "Cryptography",
-      tags: ["ZKP", "Security", "Cryptography"],
-      client: "Privacy Startup",
-      date: "2023",
-      link: "#"
+      title: "Tensor Royale",
+      description: "Incentivized on-chain AI collaboration platform, enabling permissionless upload of training data and computational AI models.",
+      image: tensorroyale,
+      category: "AI & Data",
+      tags: ["ML", "Data", "ZK"],
+    //   client: "505 Labs",
+      date: "2024",
+      link: "https://ethglobal.com/showcase/tensor-royale-bsezu"
     },
-
     {
       id: 5,
-      title: "Zero-Knowledge Proof System",
-      description: "Implemented a privacy-preserving authentication system using ZK-SNARKs. Enables users to prove identity without revealing sensitive information.",
-      image: blogImg,
-      category: "Cryptography",
-      tags: ["ZKP", "Security", "Cryptography"],
-      client: "Privacy Startup",
-      date: "2023",
-      link: "#"
+      title: "AgenticME",
+      description: "Your completely private AI browser agent running inside a TEE 🤖",
+      image: agenticme,
+      category: "AI & TEE",
+      tags: ["AI", "TEE", "Browser"],
+    //   client: "505 Labs",
+      date: "2024",
+      link: "https://ethglobal.com/showcase/agenticme-jspd4"
     },
     {
       id: 6,
-      title: "Zero-Knowledge Proof System",
-      description: "Implemented a privacy-preserving authentication system using ZK-SNARKs. Enables users to prove identity without revealing sensitive information.",
-      image: blogImg2,
-      category: "Cryptography",
-      tags: ["ZKP", "Security", "Cryptography"],
-      client: "Privacy Startup",
-      date: "2023",
-      link: "#"
+      title: "Octagon AI",
+      description: "Allowing developers to prove model accuracy without revealing the model weights",
+      image: octagonai,
+      category: "ML & ZK",
+      tags: ["ZKP", "AI", "ML"],
+    //   client: "505 Labs",
+      date: "2024",
+      link: "https://ethglobal.com/showcase/octagon-ai-4aw5y"
     },
     {
       id: 7,
-      title: "Zero-Knowledge Proof System",
-      description: "Implemented a privacy-preserving authentication system using ZK-SNARKs. Enables users to prove identity without revealing sensitive information.",
-      image: blogImg3,
+      title: "SessionFlow",
+      description: "Session-based wallet solution combining cold storage security with streamlined transaction workflows",
+      image: sessionflow,
       category: "Cryptography",
-      tags: ["ZKP", "Security", "Cryptography"],
-      client: "Privacy Startup",
-      date: "2023",
-      link: "#"
+      tags: ["Defi", "EIP-7702", "UX"],
+    //   client: "505 Labs",
+      date: "2025",
+      link: "hhttps://ethglobal.com/showcase/sessionflow-t4ok8"
     },
     {
       id: 8,
-      title: "Zero-Knowledge Proof System",
-      description: "Implemented a privacy-preserving authentication system using ZK-SNARKs. Enables users to prove identity without revealing sensitive information.",
-      image: blogImg4,
-      category: "Cryptography",
-      tags: ["ZKP", "Security", "Cryptography"],
-      client: "Privacy Startup",
-      date: "2023",
-      link: "#"
+      title: "Vebay",
+      description: "Second hand shop with verifiable time and price of purchase",
+      image: vebay,
+      category: "Defi & Consumer",
+      tags: ["Defi", "Consumer Protection", "ZKP"],
+    //   client: "505 Labs",
+      date: "2025",
+      link: "https://ethglobal.com/showcase/vebay-ndj7v"
     },
     {
       id: 9,
-      title: "Zero-Knowledge Proof System",
-      description: "Implemented a privacy-preserving authentication system using ZK-SNARKs. Enables users to prove identity without revealing sensitive information.",
-      image: blogImg,
-      category: "Cryptography",
-      tags: ["ZKP", "Security", "Cryptography"],
-      client: "Privacy Startup",
-      date: "2023",
-      link: "#"
+      title: "6.9 Inch",
+      description: "XRP/Stellar <-> Ethereum, Fusion+ integration, powered by a TEE multisig and secured by a custom validator set",
+      image: sixnineinch,
+      category: "Defi",
+      tags: ["Defi", "TEE", "Escrow", "Fusion+"],
+    //   client: "505 Labs",
+      date: "2025",
+      link: "https://ethglobal.com/showcase/6-9-inch-s1qzw"
     },
     {
       id: 10,
-      title: "Zero-Knowledge Proof System",
-      description: "Implemented a privacy-preserving authentication system using ZK-SNARKs. Enables users to prove identity without revealing sensitive information.",
-      image: blogImg2,
+      title: "SquadFi",
+      description: "Easily spin up permissionless, and trustless multi-node validators, using DVT(distributed validator technology).",
+      image: squadfi,
       category: "Cryptography",
-      tags: ["ZKP", "Security", "Cryptography"],
-      client: "Privacy Startup",
+      tags: ["DVT", "Ethereum validators", "Cryptography"],
+    //   client: "505 Labs",
       date: "2023",
-      link: "#"
+      link: "https://ethglobal.com/showcase/squadfi-vx2ky"
     },
-    {
-      id: 11,
-      title: "Zero-Knowledge Proof System",
-      description: "Implemented a privacy-preserving authentication system using ZK-SNARKs. Enables users to prove identity without revealing sensitive information.",
-      image: blogImg3,
-      category: "Cryptography",
-      tags: ["ZKP", "Security", "Cryptography"],
-      client: "Privacy Startup",
-      date: "2023",
-      link: "#"
-    },
-    {
-      id: 12,
-      title: "Zero-Knowledge Proof System",
-      description: "Implemented a privacy-preserving authentication system using ZK-SNARKs. Enables users to prove identity without revealing sensitive information.",
-      image: blogImg4,
-      category: "Cryptography",
-      tags: ["ZKP", "Security", "Cryptography"],
-      client: "Privacy Startup",
-      date: "2023",
-      link: "#"
-    }
   ];
 
   return (
@@ -152,7 +139,7 @@ function Projects() {
         <div className="row">
           <div className="col-xl-6 col-lg-8 mx-auto">
             <div className="text-center mb-5" data-aos="fade-up">
-              <h2 className="section-title mb-3">Our Previous Work and Research</h2>
+              <h2 className="section-title mb-3">Past Projects</h2>
               <p className="section-desc">
                 Explore our portfolio of successful projects across AI, blockchain, 
                 and software systems. Each project showcases our commitment to innovation 
