@@ -12,7 +12,14 @@ function Header() {
   const [mobileMenu, setMobileMenu] = useState(false);
 
   return (
-    <header className="header-primary aai-sticky" style={{ backgroundColor: "#1a2f1a" }}>
+    <header 
+      className="header-primary aai-sticky" 
+      style={{ 
+        background: "linear-gradient(to bottom,rgb(19, 31, 26) 0%,rgb(15, 27, 24) 40%,rgb(14, 22, 20) 100%)",
+        boxShadow: "0 4px 20px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 0 30px rgba(0, 0, 0, 0.3)",
+        borderBottom: "2px solid rgba(212, 165, 116, 0.25)",
+      }}
+    >
       <div className="container">
         <nav className="navbar navbar-expand-xl justify-content-between">
           <Link href="/">

@@ -12,12 +12,12 @@ function Footer() {
       className="aai-footer"
       style={{
         backgroundImage: `url(${bg.src})`,
-        backgroundPosition: "center bottom",
+        // backgroundPosition: "center bottom",
         backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        position: "relative",
-        backgroundAttachment: "fixed",
-        minHeight: "auto",
+        // backgroundRepeat: "no-repeat",
+        // position: "relative",
+        // backgroundAttachment: "fixed",
+        // minHeight: "auto",
       }}
     >
       {/* Minimal warm overlay for subtle distinction */}
@@ -167,6 +167,24 @@ function Footer() {
                     NETWORK
                   </h3>
                   <ul className="aai-footer-nav-list" style={{ gap: "12px" }}>
+                  <li className="aai-footer-nav-list-item">
+                      <a 
+                        href="https://flare-explorer.flare.network" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="aai-footer-nav-link"
+                        style={{
+                          color: "#ffffff",
+                          fontSize: "0.95rem",
+                          textShadow: "0 1px 4px rgba(0, 0, 0, 0.7)",
+                          transition: "color 0.3s ease",
+                        }}
+                        onMouseEnter={(e) => e.target.style.color = "#d4a574"}
+                        onMouseLeave={(e) => e.target.style.color = "#ffffff"}
+                      >
+                        Flare Explorer
+                      </a>
+                    </li>
                     <li className="aai-footer-nav-list-item">
                       <a 
                         href="https://songbird-explorer.flare.network" 
@@ -186,8 +204,10 @@ function Footer() {
                       </a>
                     </li>
                     <li className="aai-footer-nav-list-item">
-                      <Link 
-                        href="#delegate" 
+                      <a 
+                        href="https://flare-explorer.flare.network/address/0x134b3311C6BdeD895556807a30C7f047D99DfdC2?tab=contract" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
                         className="aai-footer-nav-link"
                         style={{
                           color: "#ffffff",
@@ -198,8 +218,8 @@ function Footer() {
                         onMouseEnter={(e) => e.target.style.color = "#d4a574"}
                         onMouseLeave={(e) => e.target.style.color = "#ffffff"}
                       >
-                        Delegate
-                      </Link>
+                        Entity Manager
+                      </a>
                     </li>
                   </ul>
                 </div>
