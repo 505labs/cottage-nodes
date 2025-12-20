@@ -126,7 +126,7 @@ function Team() {
                 </div>
                 <div className="aai-team-content mt-4">
                   <h4 className="aai-team-name mb-2">{member.name}</h4>
-                  <p className="aai-team-role mb-3" style={{ color: "#EDCB88" }}>
+                  <p className="aai-team-role mb-3" style={{ color: "#d4a574" }}>
                     {member.role}
                   </p>
                   <p className="aai-team-bio" style={{ fontSize: "14px", color: "#B6B6B6" }}>
@@ -141,7 +141,7 @@ function Team() {
       
       <style jsx>{`
         .aai-team {
-          background: linear-gradient(180deg, #0a0d1f 0%, #04091e 100%);
+          background: linear-gradient(180deg, #1a2f1a 0%, #152615 100%);
         }
         
         .aai-team-card {
@@ -187,19 +187,19 @@ function Team() {
           width: 45px;
           height: 45px;
           border-radius: 50%;
-          background: rgba(237, 203, 136, 0.1);
-          border: 1px solid #EDCB88;
+          background: rgba(212, 165, 116, 0.1);
+          border: 1px solid #d4a574;
           display: flex;
           align-items: center;
           justify-content: center;
-          color: #EDCB88;
+          color: #d4a574;
           transition: all 0.3s ease;
           font-size: 18px;
         }
         
         .aai-social-icon:hover {
-          background: #EDCB88;
-          color: #04091E;
+          background: #d4a574;
+          color: #1a2f1a;
           transform: scale(1.1);
         }
         

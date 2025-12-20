@@ -257,7 +257,7 @@ function Projects() {
 
       <style jsx>{`
         .aai-projects {
-          background: #04091e;
+          background: #1a2f1a;
         }
 
         .aai-project-card {
@@ -315,7 +315,7 @@ function Projects() {
         }
 
         .aai-project-view {
-          color: #EDCB88;
+          color: #d4a574;
           font-size: 18px;
           font-weight: 600;
           display: flex;
@@ -351,7 +351,7 @@ function Projects() {
         }
 
         .aai-project-meta i {
-          color: #EDCB88;
+          color: #d4a574;
           font-size: 14px;
         }
 
@@ -381,7 +381,7 @@ function Projects() {
         }
 
         .aai-project-title a:hover {
-          color: #EDCB88;
+          color: #d4a574;
         }
 
         .aai-project-description {
@@ -402,7 +402,7 @@ function Projects() {
         .aai-project-tag {
           background: rgba(237, 203, 136, 0.1);
           border: 1px solid rgba(237, 203, 136, 0.3);
-          color: #EDCB88;
+          color: #d4a574;
           padding: 6px 14px;
           border-radius: 20px;
           font-size: 12px;
@@ -412,14 +412,14 @@ function Projects() {
 
         .aai-project-card:hover .aai-project-tag {
           background: rgba(237, 203, 136, 0.2);
-          border-color: #EDCB88;
+          border-color: #d4a574;
         }
 
         .aai-project-link {
           display: inline-flex;
           align-items: center;
           gap: 10px;
-          color: #EDCB88;
+          color: #d4a574;
           font-weight: 600;
           font-size: 15px;
           text-decoration: none;
@@ -428,7 +428,7 @@ function Projects() {
 
         .aai-project-link:hover {
           gap: 15px;
-          color: #EDCB88;
+          color: #d4a574;
         }
 
         .aai-project-link i {

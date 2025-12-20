@@ -1,19 +1,51 @@
 import React from "react";
 import ProtoTypes from "prop-types";
 import Link from "next/link";
-import bg from "@/assets/img/bg/bread-crumb-bg.jpeg";
+import bg from "@/assets/img/cottage/Cottage-16-9.png";
 
 function BreadcrumbV2({ title, name, authorCategory, date }) {
   return (
     <section
       className="aai-breadcrumb"
-      style={{ background: `url(${bg.src}) no-repeat center center/cover` }}
+      style={{
+        background: `url(${bg.src}) no-repeat center center/cover`,
+        position: "relative",
+      }}
     >
-      <div className="container">
+      {/* Dark overlay for better text contrast */}
+      <div
+        style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          background: "linear-gradient(to bottom, rgba(26, 47, 26, 0.5), rgba(26, 47, 26, 0.7))",
+          zIndex: 1,
+        }}
+      />
+      <div className="container" style={{ position: "relative", zIndex: 2 }}>
         <div className="row justify-content-center">
           <div className="col-12 col-lg-10 col-xl-6">
-            <div className="text-center d-flex flex-column gap-3">
-              <h2 className="section-title">{title}</h2>
+            {/* Semi-transparent background box for text */}
+            <div
+              style={{
+                backgroundColor: "rgba(26, 47, 26, 0.8)",
+                padding: "2.5rem 3rem",
+                borderRadius: "15px",
+                backdropFilter: "blur(10px)",
+                boxShadow: "0 8px 32px rgba(0, 0, 0, 0.3)",
+              }}
+            >
+              <div className="text-center d-flex flex-column gap-3">
+                <h2
+                  className="section-title"
+                  style={{
+                    textShadow: "2px 2px 8px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 0, 0, 0.5)",
+                  }}
+                >
+                  {title}
+                </h2>
               <ul className="aai-breadcrumb-nav d-flex align-items-center justify-content-center">
                 <li>
                   <Link
@@ -60,6 +92,7 @@ function BreadcrumbV2({ title, name, authorCategory, date }) {
                   <i className="fa-regular fa-folder"></i>
                   <span>{name}</span>
                 </Link>
+              </div>
               </div>
             </div>
           </div>

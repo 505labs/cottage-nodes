@@ -23,6 +23,8 @@ export const viewport = {
 const sora = Sora({
   weight: ["300", "400", "600", "700", "800"],
   subsets: ["latin"],
+  display: "swap",
+  fallback: ["system-ui", "arial"],
 });
 
 export default function RootLayout({ children }) {

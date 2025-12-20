@@ -1,5 +1,5 @@
 import React from "react";
-import bg from "@/assets/img/bg/awards-bg.jpeg";
+import bg from "@/assets/img/cottage/cottage-4-3.png";
 import trustpilot from "@/assets/img/brand/trustpilot.svg";
 import hubspot from "@/assets/img/brand/hubspot.svg";
 import capt from "@/assets/img/brand/capt.svg";
@@ -14,16 +14,39 @@ function Awards() {
       className="aai-awards py-120"
       style={{
         background: `url(${bg.src}) no-repeat center center/cover`,
+        position: "relative",
       }}
     >
-      <div className="container">
+      {/* Dark overlay for better text contrast */}
+      <div
+        style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          background: "linear-gradient(to bottom, rgba(26, 47, 26, 0.4), rgba(26, 47, 26, 0.6))",
+          zIndex: 1,
+        }}
+      />
+      <div className="container" style={{ position: "relative", zIndex: 2 }}>
         <div className="row align-items-center">
           <div className="col-xl-6">
-            <div className="aai-awards-left">
-              <h2 className="section-title">
-                The awards won <br />
-                by our works.
-              </h2>
+            {/* Semi-transparent background box for text */}
+            <div
+              style={{
+                backgroundColor: "rgba(26, 47, 26, 0.75)",
+                padding: "2.5rem",
+                borderRadius: "20px",
+                backdropFilter: "blur(10px)",
+                boxShadow: "0 8px 32px rgba(0, 0, 0, 0.3)",
+              }}
+            >
+              <div className="aai-awards-left">
+                <h2 className="section-title">
+                  The awards won <br />
+                  by our works.
+                </h2>
               <ul className="work-list d-flex flex-column mt-4">
                 <li className="work-list-item d-flex align-items-center">
                   <svg
@@ -34,7 +57,7 @@ function Awards() {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <g clipPath="url(#clip0_82_5376)">
-                      <circle cx="12" cy="12" r="12" fill="#4562FF" />
+                      <circle cx="12" cy="12" r="12" fill="#6b8e6b" />
                       <path
                         fillRule="evenodd"
                         clipRule="evenodd"
@@ -61,7 +84,7 @@ function Awards() {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <g clipPath="url(#clip0_82_5376)">
-                      <circle cx="12" cy="12" r="12" fill="#4562FF" />
+                      <circle cx="12" cy="12" r="12" fill="#6b8e6b" />
                       <path
                         fillRule="evenodd"
                         clipRule="evenodd"
@@ -88,7 +111,7 @@ function Awards() {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <g clipPath="url(#clip0_82_5376)">
-                      <circle cx="12" cy="12" r="12" fill="#4562FF" />
+                      <circle cx="12" cy="12" r="12" fill="#6b8e6b" />
                       <path
                         fillRule="evenodd"
                         clipRule="evenodd"
@@ -189,6 +212,7 @@ function Awards() {
                   />
                 </div>
               </div>
+            </div>
             </div>
           </div>
         </div>

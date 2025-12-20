@@ -46,7 +46,7 @@ function ServiceCard({ img, bg, title, desc, features, style }) {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <g clipPath="url(#clip0_82_4624)">
-                        <circle cx="12" cy="12" r="12" fill="#4562FF" />
+                        <circle cx="12" cy="12" r="12" fill="#6b8e6b" />
                         <path
                           fillRule="evenodd"
                           clipRule="evenodd"

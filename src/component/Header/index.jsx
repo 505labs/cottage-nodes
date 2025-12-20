@@ -12,7 +12,7 @@ function Header() {
   const [mobileMenu, setMobileMenu] = useState(false);
 
   return (
-    <header className="header-primary aai-sticky">
+    <header className="header-primary aai-sticky" style={{ backgroundColor: "#1a2f1a" }}>
       <div className="container">
         <nav className="navbar navbar-expand-xl justify-content-between">
           <Link href="/">
@@ -40,115 +40,21 @@ function Header() {
                   </Link>
                 </div>
               </li>
-              {/* <li className="nav-item dropdown">
-                <Link
-                  className="nav-link dropdown-toggle"
-                  href="/"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  data-bs-auto-close="outside"
-                  aria-expanded="false"
-                >
+              <li className="nav-item">
+                <Link className="nav-link" href="/">
                   Home
                 </Link>
-                <div className="dropdown-menu">
-                  <div className="d-flex flex-column flex-xl-row">
-                    <ul>
-                      <li>
-                        <Link href="/" className="dropdown-item">
-                          <span>Home Main</span>
-                        </Link>
-                      </li>
-
-                      <li>
-                        <Link href="/home-two" className="dropdown-item">
-                          <span>Home Two</span>
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </li> */}
+              </li>
               <li className="nav-item">
                 <Link className="nav-link" href="/about">
-                  About Us
+                  About
                 </Link>
               </li>
-
-              {/* <li className="nav-item">
-                <Link className="nav-link" href="/services">
-                  Services
+              <li className="nav-item">
+                <Link className="nav-link" href="#delegate">
+                  Resources
                 </Link>
               </li>
-              <li className="nav-item dropdown">
-                <Link
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  data-bs-auto-close="outside"
-                  aria-expanded="false"
-                >
-                  Pages
-                </Link>
-                <ul className="dropdown-menu">
-                  <li>
-                    <Link href="/services-details" className="dropdown-item">
-                      <span>Service Details</span>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/features" className="dropdown-item">
-                      <span>Features</span>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/prices" className="dropdown-item">
-                      <span>Pricing</span>
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link href="/404" className="dropdown-item">
-                      <span>404 Page</span>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/signin" className="dropdown-item">
-                      <span>Signin Page</span>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/signup" className="dropdown-item">
-                      <span>Signup Page</span>
-                    </Link>
-                  </li>
-                </ul>
-              </li>
-              <li className="nav-item dropdown">
-                <Link
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  data-bs-auto-close="outside"
-                  aria-expanded="false"
-                >
-                  Blog
-                </Link>
-                <ul className="dropdown-menu">
-                  <li>
-                    <Link href="/blog" className="dropdown-item">
-                      <span>Blog</span>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/blog-details" className="dropdown-item">
-                      <span>Blog Details</span>
-                    </Link>
-                  </li>
-                </ul>
-              </li> */}
               <li className="nav-item">
                 <Link className="nav-link" href="/contact">
                   Contact

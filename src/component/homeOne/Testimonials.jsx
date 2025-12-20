@@ -1,6 +1,6 @@
 import React from "react";
 import ProtoTypes from "prop-types";
-import bg from "@/assets/img/bg/testimonial-bg.jpeg";
+import bg from "@/assets/img/cottage/cottage-21-9.png";
 import Slider from "../common/Slider";
 import TestimonialCard from "../cards/TestimonialCard";
 import authorImg from "@/assets/img/avatar/av-5.png";
@@ -12,12 +12,41 @@ function Testimonials({ className }) {
   return (
     <section
       className={`aai-testimonials pb-120 ${className}`}
-      style={{ background: `url(${bg.src}) no-repeat center center/cover` }}
+      style={{
+        background: `url(${bg.src}) no-repeat center center/cover`,
+        position: "relative",
+      }}
     >
-      <div className="row justify-content-center">
-        <div className="col-xl-8">
-          <div className="aai-section-title mb-3 text-center mb-5">
-            <h2 className="section-title">Meet our Happy Clients</h2>
+      {/* Dark overlay for better text contrast */}
+      <div
+        style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          background: "linear-gradient(to bottom, rgba(26, 47, 26, 0.4), rgba(26, 47, 26, 0.6))",
+          zIndex: 1,
+        }}
+      />
+      <div style={{ position: "relative", zIndex: 2 }}>
+        <div className="row justify-content-center">
+          <div className="col-xl-8">
+            <div className="aai-section-title mb-3 text-center mb-5">
+              {/* Semi-transparent background box for title */}
+              <div
+                style={{
+                  backgroundColor: "rgba(26, 47, 26, 0.75)",
+                  padding: "1.5rem 2rem",
+                  borderRadius: "15px",
+                  backdropFilter: "blur(10px)",
+                  boxShadow: "0 8px 32px rgba(0, 0, 0, 0.3)",
+                  display: "inline-block",
+                }}
+              >
+                <h2 className="section-title">Meet our Happy Clients</h2>
+              </div>
+            </div>
           </div>
         </div>
       </div>

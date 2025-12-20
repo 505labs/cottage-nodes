@@ -1,5 +1,5 @@
 import React from "react";
-import bg from "@/assets/img/bg/sign-in-up.jpeg";
+import bg from "@/assets/img/cottage/Cottage-16-9.png";
 import img from "@/assets/img/others/ai-ills.svg";
 import SignIn from "../forms/SignIn";
 import Link from "next/link";
