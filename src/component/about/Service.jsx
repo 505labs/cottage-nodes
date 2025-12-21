@@ -33,7 +33,7 @@ function Service() {
             <div className="col-lg-6 mt-5 mt-lg-0">
               <div>
                 <h2 className="section-title mb-4">
-                  Aai AI Writer tool for seamless collaboration
+                  Cottagenodes is a Flare Network data provider and validator node operator
                 </h2>
                 <p className="section-desc">
                   With smart automation and top-notch security, it&apos;s the
@@ -125,7 +125,7 @@ function Service() {
             <div className="col-lg-6">
               <div>
                 <h2 className="section-title mb-4">
-                  Start Writing Faster with Aai tool
+                  Cottagenodes is a Flare Network data provider and validator node operator
                 </h2>
                 <p className="section-desc">
                   We&apos;ve done it carefully and simply. Combined with the

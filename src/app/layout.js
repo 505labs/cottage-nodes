@@ -10,8 +10,8 @@ import "aos/dist/aos.css";
 import AosInit from "@/component/aos";
 import ServiceWorker from "@/component/sw";
 export const metadata = {
-  title: "Aai",
-  description: "Aai ",
+  title: "Cottagenodes",
+  description: "Cottagenodes is a Flare Network data provider and validator node operator.",
 };
 
 export const viewport = {

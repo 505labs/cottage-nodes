@@ -31,7 +31,7 @@ function AboutService() {
                     <div className="col-lg-6">
                       <div>
                         <h3 className="aai-about-service-title">
-                          Get Ready Aai Service
+                          Get Ready Cottagenodes Service
                         </h3>
                         <p className="section-desc">
                           We&lsquo;ve done it carefully and simply. Combined
