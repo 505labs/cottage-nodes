@@ -125,7 +125,6 @@ function Hero() {
                     Learn More
                   </Link>
                 </div>
-                </div>
               </div>
             </div>
           </div>

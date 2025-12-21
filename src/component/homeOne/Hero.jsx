@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import bg from "@/assets/img/cottage/cottage-21-9.png";
-import Link from "next/link";
 
 function Hero() {
   return (
@@ -16,19 +15,7 @@ function Hero() {
         position: "relative",
       }}
     >
-      {/* Dark overlay for better text contrast */}
-      <div
-        style={{
-          position: "absolute",
-          top: 0,
-          left: 0,
-          right: 0,
-          bottom: 0,
-          background: "linear-gradient(to bottom, rgba(26, 47, 26, 0.4), rgba(26, 47, 26, 0.6))",
-          zIndex: 1,
-        }}
-      />
-      <div className="container" style={{ position: "relative", zIndex: 2 }}>
+      <div className="container" style={{ position: "relative", zIndex: 10 }}>
         <div className="row justify-content-center">
           <div className="col-12 col-lg-10 col-xl-9">
             <div className="aai-hero-one-content text-center">
@@ -64,7 +51,7 @@ function Hero() {
                     textShadow: "2px 2px 6px rgba(0, 0, 0, 0.8), 0 0 15px rgba(0, 0, 0, 0.5)",
                   }}
                 >
-                  Let's work together to maximise your Flare Rewards
+                  Let&apos;s work together to maximise your Flare Rewards
                 </h2>
                 <p
                   className="aai-hero-one-desc mx-auto"
@@ -83,9 +70,20 @@ function Hero() {
                 </p>
               </div>
               <div className="mt-5 d-flex flex-column flex-md-row aai-btns-group justify-content-center">
-                <Link href="#delegate" className="aai-btn btn-pill-solid" style={{ fontSize: "1.1rem", padding: "1rem 2.5rem" }}>
+                <a 
+                  href="https://portal.flare.network/" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="aai-btn btn-pill-solid" 
+                  style={{ 
+                    fontSize: "1.1rem", 
+                    padding: "1rem 2.5rem",
+                    textDecoration: "none",
+                    display: "inline-block",
+                  }}
+                >
                   DELEGATE YOUR VOTES
-                </Link>
+                </a>
               </div>
             </div>
           </div>
@@ -99,8 +97,9 @@ function Hero() {
           bottom: "2rem",
           left: "50%",
           transform: "translateX(-50%)",
-          zIndex: 3,
+          zIndex: 2,
           textAlign: "center",
+          pointerEvents: "none",
         }}
       >
         <p
@@ -111,13 +110,13 @@ function Hero() {
             letterSpacing: "2px",
             textTransform: "uppercase",
             fontWeight: "300",
-            textShadow: "0 1px 3px rgba(0, 0, 0, 0.3)",
+            textShadow: "0 1px 3px rgba(0, 0, 0, 0.5)",
             margin: 0,
             opacity: 0.6,
             fontFamily: "'Sora', sans-serif",
           }}
         >
-          Let's touch grass
+          Let&apos;s touch grass
         </p>
       </div>
     </section>

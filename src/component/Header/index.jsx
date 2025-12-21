@@ -28,6 +28,7 @@ function Header() {
               height={logo.height}
               width={logo.width}
               alt=""
+              style={{ borderRadius: "50px" }}
             />
           </Link>
           <div
@@ -43,6 +44,7 @@ function Header() {
                       height={logo.height}
                       width={logo.width}
                       alt=""
+                      style={{ borderRadius: "50px" }}
                     />
                   </Link>
                 </div>
@@ -58,7 +60,7 @@ function Header() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" href="#delegate">
+                <Link className="nav-link" href="/resources">
                   Resources
                 </Link>
               </li>

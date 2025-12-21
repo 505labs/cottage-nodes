@@ -59,6 +59,7 @@ function Footer() {
                       width={logoF.width}
                       src={logoF.src}
                       alt=""
+                      style={{ borderRadius: "50px" }}
                     />
                   </Link>
                   <p 
@@ -85,7 +86,7 @@ function Footer() {
                     }}
                   >
                     <a 
-                      href="mailto:info@ftso.london" 
+                      href="mailto:info@cottagenodes.com" 
                       className="text-decoration-none" 
                       style={{ 
                         color: "#ffffff",
@@ -95,12 +96,12 @@ function Footer() {
                       onMouseEnter={(e) => e.target.style.color = "#d4a574"}
                       onMouseLeave={(e) => e.target.style.color = "#ffffff"}
                     >
-                      info@ftso.london
+                      info@cottagenodes.com
                     </a>
                   </p>
                   <div className="aai-social-links d-flex" style={{ gap: "12px" }}>
                     <a 
-                      href="https://twitter.com/ftsolondon" 
+                      href="https://twitter.com/cottagenodes" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       style={{
@@ -260,7 +261,7 @@ function Footer() {
                   <ul className="aai-footer-nav-list" style={{ gap: "12px" }}>
                     <li className="aai-footer-nav-list-item">
                       <Link 
-                        href="#delegate" 
+                        href="/resources" 
                         className="aai-footer-nav-link"
                         style={{
                           color: "#ffffff",
@@ -333,7 +334,7 @@ function Footer() {
                     margin: 0,
                   }}
                 >
-                  We are committed to providing accurate price data submissions to maximize rewards for FLR and SGB token holders through our advanced algorithms and robust infrastructure.
+                  We are committed to providing accurate price data submissions to maximize rewards for FLR token holders through our advanced algorithms and robust infrastructure.
                 </p>
               </div>
             </div>
@@ -367,10 +368,10 @@ function Footer() {
                 margin: 0,
               }}
             >
-              © 2025 Flare Network Validator |{" "}
-              <Link href="#" style={{ color: "#d4a574", textDecoration: "none", transition: "color 0.3s ease" }} onMouseEnter={(e) => e.target.style.color = "#f5d4a0"} onMouseLeave={(e) => e.target.style.color = "#d4a574"}>Privacy Policy</Link> |{" "}
-              <Link href="#" style={{ color: "#d4a574", textDecoration: "none", transition: "color 0.3s ease" }} onMouseEnter={(e) => e.target.style.color = "#f5d4a0"} onMouseLeave={(e) => e.target.style.color = "#d4a574"}>Disclaimer</Link> |{" "}
-              <Link href="#" style={{ color: "#d4a574", textDecoration: "none", transition: "color 0.3s ease" }} onMouseEnter={(e) => e.target.style.color = "#f5d4a0"} onMouseLeave={(e) => e.target.style.color = "#d4a574"}>Terms and Conditions</Link>
+              © 2025 Cottage Nodes |{" "}
+              <Link href="/privacy-policy" style={{ color: "#d4a574", textDecoration: "none", transition: "color 0.3s ease" }} onMouseEnter={(e) => e.target.style.color = "#f5d4a0"} onMouseLeave={(e) => e.target.style.color = "#d4a574"}>Privacy Policy</Link> |{" "}
+              <Link href="/disclaimer" style={{ color: "#d4a574", textDecoration: "none", transition: "color 0.3s ease" }} onMouseEnter={(e) => e.target.style.color = "#f5d4a0"} onMouseLeave={(e) => e.target.style.color = "#d4a574"}>Disclaimer</Link> |{" "}
+              <Link href="/terms-and-conditions" style={{ color: "#d4a574", textDecoration: "none", transition: "color 0.3s ease" }} onMouseEnter={(e) => e.target.style.color = "#f5d4a0"} onMouseLeave={(e) => e.target.style.color = "#d4a574"}>Terms and Conditions</Link>
             </p>
           </div>
         </div>

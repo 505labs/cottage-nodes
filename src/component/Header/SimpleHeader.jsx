@@ -16,6 +16,7 @@ function SimpleHeader() {
                   height={logo.height}
                   width={logo.width}
                   alt=""
+                  style={{ borderRadius: "50px" }}
                 />
               </Link>
             </div>

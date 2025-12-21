@@ -6,10 +6,10 @@ import contactPhoto from "@/assets/img/cottage/cottage-contact-16-9.png";
 
 function Contact() {
   return (
-    <section className="aai-contact-section" style={{ padding: "0", marginTop: "80px", minHeight: "calc(100vh - 80px)", display: "flex", alignItems: "center" }}>
-      <div className="container-fluid" style={{ padding: "0", width: "100%" }}>
+    <section className="aai-contact-section" style={{ padding: "0", marginTop: "80px", minHeight: "calc(100vh - 80px)", display: "flex", alignItems: "center", position: "relative" }}>
+      <div className="container-fluid" style={{ padding: "0", width: "100%", position: "relative", zIndex: 10 }}>
         <div className="row align-items-center" style={{ margin: "0" }}>
-          <div className="col-lg-5" data-aos="fade-right" style={{ padding: "5rem 4rem", minHeight: "calc(100vh - 80px)", display: "flex", alignItems: "center", margin: "2rem 0" }}>
+          <div className="col-lg-5" data-aos="fade-right" style={{ padding: "5rem 4rem", minHeight: "calc(100vh - 80px)", display: "flex", alignItems: "center", margin: "2rem 0", position: "relative", zIndex: 10 }}>
             <ContactForm />
           </div>
           <div className="col-lg-7" data-aos="fade-left" style={{ padding: "0" }}>
@@ -31,6 +31,7 @@ function Contact() {
                   fill
                   style={{
                     objectFit: "cover",
+                    pointerEvents: "none",
                   }}
                   className="img-fluid"
                 />

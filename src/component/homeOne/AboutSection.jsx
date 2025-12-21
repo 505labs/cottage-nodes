@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import Link from "next/link";
 
 function AboutSection() {
   return (
@@ -168,9 +167,8 @@ function AboutSection() {
                     }}
                   >
                     Specializing in IT and extremely knowledgeable in the cryptocurrency space, we are well 
-                    equipped as a data service provider to deliver lucrative rewards to Flare and Songbird 
-                    token holders. We value the vote of every FLR and SGB token holder and we are truly 
-                    excited about how we're positioned to generate Flare Rewards.
+                    equipped as a data service provider to deliver lucrative rewards to Flare token holders. We value the vote of every FLR token holder and we are truly 
+                    excited about how we&apos;re positioned to generate Flare Rewards.
                   </p>
                 </div>
               </div>
@@ -205,17 +203,21 @@ function AboutSection() {
                 >
                   Together, let us help you maximise your Flare Rewards
                 </h3>
-                <Link 
-                  href="#delegate" 
+                <a 
+                  href="https://portal.flare.network/" 
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="aai-btn btn-pill-solid" 
                   style={{ 
                     fontSize: "1.1rem", 
                     padding: "1rem 2.5rem",
                     boxShadow: "0 4px 15px rgba(212, 165, 116, 0.3)",
+                    textDecoration: "none",
+                    display: "inline-block",
                   }}
                 >
                   DELEGATE YOUR VOTES
-                </Link>
+                </a>
               </div>
             </div>
           </div>
