@@ -76,7 +76,7 @@ function DelegateSection() {
                   textShadow: "0 2px 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(255, 255, 255, 0.1)",
                 }}
               >
-                Flare FLR and Songbird SGB token holders are free to delegate and un-delegate their votes at any time.
+                Flare FLR token holders are free to delegate and un-delegate their votes at any time.
               </p>
             </div>
             

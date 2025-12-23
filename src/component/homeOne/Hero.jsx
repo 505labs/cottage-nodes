@@ -66,7 +66,7 @@ function Hero() {
                 >
                   Our delegation services enable token holders to earn lucrative rewards on the Flare Network.
                   Advanced algorithms are constantly refined with the objective of generating maximum reward 
-                  for the benefit of all Songbird and Flare token holders who have delegated their vote to us.
+                  for the benefit of all Flare token holders who have delegated their vote to us.
                 </p>
               </div>
               <div className="mt-5 d-flex flex-column flex-md-row aai-btns-group justify-content-center">

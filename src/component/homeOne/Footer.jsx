@@ -101,7 +101,7 @@ function Footer() {
                   </p>
                   <div className="aai-social-links d-flex" style={{ gap: "12px" }}>
                     <a 
-                      href="https://twitter.com/cottagenodes" 
+                      href="https://x.com/cottage_nodes" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       style={{
@@ -129,6 +129,36 @@ function Footer() {
                       }}
                     >
                       <i className="fa-brands fa-twitter"></i>
+                    </a>
+                    <a 
+                      href="https://www.linkedin.com/company/cottage-nodes/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      style={{
+                        width: "40px",
+                        height: "40px",
+                        borderRadius: "50%",
+                        background: "rgba(255, 255, 255, 0.15)",
+                        border: "1px solid rgba(212, 165, 116, 0.4)",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        color: "#ffffff",
+                        textShadow: "0 2px 8px rgba(0, 0, 0, 0.7)",
+                        transition: "all 0.3s ease",
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.background = "rgba(212, 165, 116, 0.4)";
+                        e.currentTarget.style.borderColor = "#d4a574";
+                        e.currentTarget.style.transform = "translateY(-3px)";
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.background = "rgba(255, 255, 255, 0.15)";
+                        e.currentTarget.style.borderColor = "rgba(212, 165, 116, 0.4)";
+                        e.currentTarget.style.transform = "translateY(0)";
+                      }}
+                    >
+                      <i className="fa-brands fa-linkedin-in"></i>
                     </a>
                   </div>
                 </div>
